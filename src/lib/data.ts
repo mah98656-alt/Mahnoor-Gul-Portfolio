@@ -1,333 +1,317 @@
+============================================================
+// MAHNOOR GUL PORTFOLIO DATA
+// All images from Google Drive folder
+// All videos embedded via Vimeo
 // ============================================================
-// SITE DATA — Replace placeholder values with your real assets
-// All image paths are relative to /public/
-// All video URLs should be Vimeo embed URLs
-// ============================================================
-
+ 
 export const siteConfig = {
   name: 'Mahnoor Gul',
-  title: 'Motion Designer & Animator',
-  tagline: 'I craft fantasy-inspired worlds through animation, motion, and visual storytelling.',
+  title: '2D & 3D Animator | Motion Designer',
+  tagline: 'Crafting compelling animations through 2D, 3D, and motion design.',
   email: 'mah98656@gmail.com',
   phone: '+92 319 591 4246',
   whatsapp: 'https://wa.me/923195914246',
-  location: 'Based in Pakistan · Open to full-time & freelance opportunities',
+  location: 'Islamabad, Pakistan · Open to opportunities in Riyadh',
   instagram: 'https://www.instagram.com/noormahh23/',
   linkedin: 'https://www.linkedin.com/in/mahnoor-gul-308ba428a/',
-  availability: 'Available for motion design, animation & multimedia roles',
+  availability: 'Available for animation, motion design & multimedia roles',
 }
-
+ 
 export const heroData = {
-  videoSrc: '/videos/hero-background-loop.mp4',       // REPLACE: your hero loop video
-  posterSrc: '/images/hero/hero-background-fallback.webp', // REPLACE: your fallback image
-  photoSrc: '/images/about/mahnoor-photo.webp',       // REPLACE: your professional photo
+  videoSrc: '/videos/hero-background-loop.mp4',
+  posterSrc: '/images/hero/hero-background-fallback.webp',
+  photoSrc: '/images/Profile/Mahnoor_Profile_Photo.webp',
 }
-
+ 
 export const showreelData = {
   masterReel: {
-    vimeoUrl: 'https://player.vimeo.com/video/XXXXXXXXX', // REPLACE: your master showreel Vimeo URL
-    poster: '/images/hero/showreel-poster.webp',           // REPLACE: showreel poster
+    vimeoUrl: 'https://vimeo.com/share/a1103005-fc3d-461f-94be-1996eccb8c61',
+    poster: '/images/hero/showreel-poster.webp',
     label: 'Master Showreel',
   },
-  animationReel: {
-    vimeoUrl: 'https://player.vimeo.com/video/XXXXXXXXX', // REPLACE: your animation reel Vimeo URL (optional)
-    poster: '/images/hero/showreel-animation-poster.webp',
-    label: 'Animation Reel',
-  },
 }
-
+ 
 export const thesisFilm = {
-  title: 'Thesis Film',         // REPLACE: Your thesis film's actual title
-  tagline: 'A cinematic journey into a fantasy-inspired world.', // REPLACE
-  year: '2024',
-  duration: '3 min 24 sec',    // REPLACE
+  title: 'Thesis Film',
+  tagline: 'A 2D and 3D animated exploration of character and environment.',
+  year: '2026',
+  duration: '2 min 30 sec',
   role: 'Director · Animator · Character Designer · Compositor',
   tools: ['Blender', 'After Effects', 'Animate CC', 'Photoshop'],
-  vimeoUrl: 'https://player.vimeo.com/video/XXXXXXXXX', // REPLACE
-  heroImage: '/images/projects/thesis/thesis-hero.webp',         // REPLACE
-  thumbnail: '/images/projects/thesis/thesis-thumbnail.webp',    // REPLACE
+  vimeoUrl: 'https://vimeo.com/share/21af417e-bcf0-4124-9407-98ff704aa7a4',
+  trailerVimeoUrl: 'https://vimeo.com/share/6fdac968-03b2-48ad-bbd4-66b04185e84c',
+  heroImage: '/images/projects/thesis-hero.webp',
+  thumbnail: '/images/Thumbnails/Video_9_Thumbnail.webp',
   stills: [
-    '/images/projects/thesis/thesis-still-01.webp', // REPLACE
-    '/images/projects/thesis/thesis-still-02.webp', // REPLACE
-    '/images/projects/thesis/thesis-still-03.webp', // REPLACE
-    '/images/projects/thesis/thesis-still-04.webp', // REPLACE
+    '/images/projects/thesis-still-01.webp',
+    '/images/projects/thesis-still-02.webp',
+    '/images/projects/thesis-still-03.webp',
+    '/images/projects/thesis-still-04.webp',
   ],
-  concept: `This thesis film was the culmination of my Computer Arts degree — a short animated film set in a fantasy world rich with atmosphere, emotion, and visual storytelling. The project pushed me to work across every stage of production: concept, storyboard, character design, 3D modeling, animation, and compositing.`,
-  development: `The development process began with world-building — defining the visual language, the color palette, and the emotional arc of the story. Every scene was planned through animatics before entering production. The rendering pipeline combined Blender for 3D with After Effects for compositing and motion graphics overlays.`,
+  concept: `My thesis film represents the culmination of my Computer Arts degree — a complete production combining 2D and 3D animation techniques. The project demonstrates proficiency across character animation, environment design, and digital compositing.`,
+  development: `The development process involved comprehensive pre-production planning, character design iteration, 3D modeling and animation in Blender, and final compositing in After Effects. The work showcases my ability to manage a complete animation pipeline from concept to delivery.`,
   learnings: [
-    'Managing a full production pipeline end-to-end as a solo creator',
-    'The importance of pre-production planning in reducing revision time',
-    'Lighting and color temperature as storytelling tools in 3D',
-    'Compositing techniques that blend 2D and 3D elements seamlessly',
-    'Iterating on character performance to convey emotion without dialogue',
+    'Full production pipeline management as a solo animator',
+    'Integration of 2D and 3D elements in a cohesive visual narrative',
+    'Character performance animation and emotional expression',
+    'Lighting and rendering optimization in Blender',
+    'Compositing techniques for professional output',
   ],
 }
-
+ 
 export const projects3D = [
   {
-    id: 'official-teaser',
-    title: 'Official Teaser',
+    id: '3d-video-1',
+    title: '3D Animation Project 1',
     category: '3D Animation',
-    year: '2024',
+    year: '2025',
     tools: ['Blender', 'After Effects'],
-    thumbnail: '/images/projects/3d/official-teaser-thumbnail.webp', // REPLACE
-    preview: '/videos/3d/official-teaser-preview.mp4',                // REPLACE
-    vimeoUrl: 'https://player.vimeo.com/video/XXXXXXXXX',             // REPLACE
+    thumbnail: '/images/Thumbnails/Video_1_Thumbnail.webp',
+    preview: '/videos/3d/Video_1_Preview.mp4',
+    vimeoUrl: 'https://vimeo.com/share/a1103005-fc3d-461f-94be-1996eccb8c61',
     stills: [
-      '/images/projects/3d/official-teaser-still-01.webp', // REPLACE
-      '/images/projects/3d/official-teaser-still-02.webp', // REPLACE
+      '/images/projects/3d-still-01.webp',
     ],
-    description: 'A cinematic 3D teaser exploring atmosphere, lighting, and storytelling through environmental animation.',
+    description: 'A 3D animation project demonstrating environmental design, lighting, and rendering capabilities.',
     featured: true,
   },
   {
-    id: '3d-stories-office',
-    title: '3D Stories — The Office',
+    id: '3d-video-2',
+    title: '3D Animation Project 2',
     category: '3D Animation',
-    year: '2024',
+    year: '2025',
     tools: ['Blender', 'After Effects'],
-    thumbnail: '/images/projects/3d/3d-stories-office-thumbnail.webp', // REPLACE
-    preview: '/videos/3d/3d-stories-office-preview.mp4',                // REPLACE
-    vimeoUrl: '',
-    stills: ['/images/projects/3d/3d-stories-office-still-01.webp'],    // REPLACE
-    description: 'An interior 3D scene bringing a contemporary office environment to life with character and detail.',
-    featured: false,
-  },
-  {
-    id: '3d-stories-bedroom',
-    title: '3D Stories — The Bedroom',
-    category: '3D Animation',
-    year: '2024',
-    tools: ['Blender', 'After Effects'],
-    thumbnail: '/images/projects/3d/3d-stories-bedroom-thumbnail.webp', // REPLACE
-    preview: '/videos/3d/3d-stories-bedroom-preview.mp4',                // REPLACE
-    vimeoUrl: '',
-    stills: ['/images/projects/3d/3d-stories-bedroom-still-01.webp'],    // REPLACE
-    description: 'A warmly lit bedroom scene exploring soft lighting, atmosphere, and environmental storytelling.',
+    thumbnail: '/images/Thumbnails/Video_2_Thumbnail.webp',
+    preview: '/videos/3d/Video_2_Preview.mp4',
+    vimeoUrl: 'https://vimeo.com/share/e9a988de-d220-472d-aa9d-2ae2ceb3f975',
+    stills: [
+      '/images/projects/3d-still-02.webp',
+    ],
+    description: 'Blender 3D animation showcasing scene composition, material design, and animation principles.',
     featured: false,
   },
 ]
-
+ 
 export const projects2D = [
   {
-    id: 'experimental-2d',
-    title: 'Experimental 2D Animation',
+    id: '2d-video-1',
+    title: '2D Animation Project 1',
     category: '2D Animation',
-    year: '2024',
+    year: '2025',
     tools: ['Adobe Animate CC', 'After Effects', 'Photoshop'],
-    thumbnail: '/images/projects/2d/experimental-2d-thumbnail.webp', // REPLACE
-    preview: '/videos/2d/experimental-2d-preview.mp4',                // REPLACE
-    vimeoUrl: 'https://player.vimeo.com/video/XXXXXXXXX',             // REPLACE
+    thumbnail: '/images/Thumbnails/Video_3_Thumbnail.webp',
+    preview: '/videos/2d/Video_3_Preview.mp4',
+    vimeoUrl: 'https://vimeo.com/share/cb8b043a-dfea-48d0-9b9a-84bf04a943e4',
     stills: [
-      '/images/projects/2d/experimental-2d-still-01.webp', // REPLACE
-      '/images/projects/2d/experimental-2d-still-02.webp', // REPLACE
+      '/images/projects/2d-still-01.webp',
     ],
-    description: 'An experimental 2D animation piece exploring surreal environments, fluid movement, and expressive character work.',
+    description: 'Character-driven 2D animation demonstrating fluid movement and expressive character work.',
     featured: true,
   },
   {
-    id: 'ai-animation',
-    title: 'AI Animation & Motion Work',
+    id: '2d-video-2',
+    title: '2D Animation Project 2',
     category: '2D Animation',
-    year: '2024',
-    tools: ['Adobe Character Animator', 'After Effects', 'Animate CC'],
-    thumbnail: '/images/projects/2d/ai-animation-thumbnail.webp', // REPLACE
-    preview: '/videos/2d/ai-animation-preview.mp4',                // REPLACE
-    vimeoUrl: '',
-    stills: ['/images/projects/2d/ai-animation-still-01.webp'],    // REPLACE
-    description: 'Character animation and motion work combining traditional 2D techniques with AI-assisted animation tools.',
+    year: '2025',
+    tools: ['Adobe Animate CC', 'After Effects'],
+    thumbnail: '/images/Thumbnails/Video_4_Thumbnail.webp',
+    preview: '/videos/2d/Video_4_Preview.mp4',
+    vimeoUrl: 'https://vimeo.com/share/c5af8dac-4734-4ac4-9c1c-859bf66069c8',
+    stills: [
+      '/images/projects/2d-still-02.webp',
+    ],
+    description: '2D animation project combining character animation with motion graphics principles.',
     featured: false,
   },
   {
-    id: 'internship-animation',
-    title: 'Internship Animation Work',
+    id: '2d-video-3',
+    title: '2D Animation Project 3',
     category: '2D Animation',
-    year: '2023',
-    tools: ['Adobe Animate CC', 'After Effects'],
-    thumbnail: '/images/projects/2d/internship-animation-thumbnail.webp', // REPLACE
-    preview: '/videos/2d/internship-animation-preview.mp4',                // REPLACE
-    vimeoUrl: '',
-    stills: ['/images/projects/2d/internship-animation-still-01.webp'],    // REPLACE
-    description: 'Animation work produced during my internship at Figment Craft, covering character animation and multimedia content.',
+    year: '2025',
+    tools: ['Adobe Animate CC', 'After Effects', 'Photoshop'],
+    thumbnail: '/images/Thumbnails/Video_5_Thumbnail.webp',
+    preview: '/videos/2d/Video_5_Preview.mp4',
+    vimeoUrl: 'https://vimeo.com/share/7bf1dd59-9dcc-4162-8188-f6c46e5f7671',
+    stills: [
+      '/images/projects/2d-still-03.webp',
+    ],
+    description: 'Frame-by-frame 2D animation demonstrating traditional hand-drawn animation techniques.',
     featured: false,
   },
 ]
-
+ 
 export const projectsMotion = [
   {
-    id: 'logo-animation',
-    title: 'Logo Animation',
+    id: 'motion-video-1',
+    title: 'Motion Graphics Project 1',
     category: 'Motion Graphics',
-    year: '2024',
+    year: '2025',
     tools: ['After Effects', 'Illustrator'],
-    thumbnail: '/images/projects/motion/logo-animation-thumbnail.webp', // REPLACE
-    preview: '/videos/motion/logo-animation-preview.mp4',                // REPLACE
-    vimeoUrl: '',
-    description: 'Kinetic logo animation bringing brand identities to life through motion.',
+    thumbnail: '/images/Thumbnails/Video_6_Thumbnail.webp',
+    preview: '/videos/motion/Video_6_Preview.mp4',
+    vimeoUrl: 'https://vimeo.com/share/636d20a7-f929-4874-bb29-32ff186a3308',
+    description: 'Motion graphics showcasing kinetic typography and visual effects.',
     featured: false,
   },
   {
-    id: 'kinetic-type',
-    title: 'Kinetic Typography',
+    id: 'motion-video-2',
+    title: 'Motion Graphics Project 2',
     category: 'Motion Graphics',
-    year: '2024',
-    tools: ['After Effects'],
-    thumbnail: '/images/projects/motion/kinetic-type-thumbnail.webp', // REPLACE
-    preview: '/videos/motion/kinetic-type-preview.mp4',                // REPLACE
-    vimeoUrl: '',
-    description: 'A kinetic typography sequence exploring the rhythm and motion of language through expressive type animation.',
+    year: '2025',
+    tools: ['After Effects', 'Illustrator'],
+    thumbnail: '/images/Thumbnails/Video_7_Thumbnail.webp',
+    preview: '/videos/motion/Video_7_Preview.mp4',
+    vimeoUrl: 'https://vimeo.com/share/3adedc7d-9e23-4154-a04b-14f19abf3dce',
+    description: 'Motion design project demonstrating animation principles and visual storytelling.',
     featured: true,
   },
+  {
+    id: 'motion-video-3',
+    title: 'Motion Graphics Project 3',
+    category: 'Motion Graphics',
+    year: '2025',
+    tools: ['After Effects'],
+    thumbnail: '/images/Thumbnails/Video_8_Thumbnail.webp',
+    preview: '/videos/motion/Video_8_Preview.mp4',
+    vimeoUrl: 'https://vimeo.com/share/dcf74197-b773-4843-90a7-c1c710b32c16',
+    description: 'Motion graphics composition combining animation and design elements.',
+    featured: false,
+  },
 ]
-
+ 
 export const illustrations = [
-  { id: 'illus-01', src: '/images/projects/illustration/illus-01.webp', title: 'Illustration 01', orientation: 'portrait' },
-  { id: 'illus-02', src: '/images/projects/illustration/illus-02.webp', title: 'Illustration 02', orientation: 'landscape' },
-  { id: 'illus-03', src: '/images/projects/illustration/illus-03.webp', title: 'Illustration 03', orientation: 'portrait' },
-  { id: 'illus-04', src: '/images/projects/illustration/illus-04.webp', title: 'Illustration 04', orientation: 'landscape' },
-  { id: 'illus-05', src: '/images/projects/illustration/illus-05.webp', title: 'Illustration 05', orientation: 'portrait' },
-  { id: 'illus-06', src: '/images/projects/illustration/illus-06.webp', title: 'Illustration 06', orientation: 'landscape' },
-  { id: 'illus-07', src: '/images/projects/illustration/illus-07.webp', title: 'Illustration 07', orientation: 'portrait' },
-  { id: 'illus-08', src: '/images/projects/illustration/illus-08.webp', title: 'Illustration 08', orientation: 'landscape' },
-  // REPLACE: Add up to 16 total. Format: { id, src, title, orientation: 'portrait'|'landscape'|'square' }
+  { id: 'illus-01', src: '/images/Illustration/Illus_01.webp', title: 'Illustration 01', orientation: 'portrait' },
+  { id: 'illus-02', src: '/images/Illustration/Illus_02.webp', title: 'Illustration 02', orientation: 'landscape' },
+  { id: 'illus-03', src: '/images/Illustration/Illus_03.webp', title: 'Illustration 03', orientation: 'portrait' },
+  { id: 'illus-04', src: '/images/Illustration/Illus_04.webp', title: 'Illustration 04', orientation: 'landscape' },
+  { id: 'illus-05', src: '/images/Illustration/Illus_05.webp', title: 'Illustration 05', orientation: 'portrait' },
+  { id: 'illus-06', src: '/images/Illustration/Illus_06.webp', title: 'Illustration 06', orientation: 'landscape' },
+  { id: 'illus-07', src: '/images/Illustration/Illus_07.webp', title: 'Illustration 07', orientation: 'portrait' },
 ]
-
+ 
 export const characterDesigns = [
   {
     id: 'jackson',
     name: 'Jackson',
-    description: 'Original character design developed as a full turnaround with expression sheet and color palette.',
-    turnaround: '/images/projects/character/char-jackson-turnaround.webp', // REPLACE
-    expressions: '/images/projects/character/char-jackson-expressions.webp', // REPLACE
-    colorSheet: '/images/projects/character/char-jackson-color.webp',        // REPLACE
-    thumbnail: '/images/projects/character/char-jackson-thumbnail.webp',     // REPLACE
+    description: 'Original character design with full turnaround and multiple poses and expressions.',
+    turnaround: '/images/Character_Design/Jackson_Turnaround.webp',
+    expressions: '/images/Character_Design/Jackson_Poses.webp',
+    colorSheet: '/images/Character_Design/Jackson_Color_Sheet.webp',
+    thumbnail: '/images/Character_Design/Jackson_Thumbnail.webp',
     featured: true,
   },
+]
+ 
+export const truckArt = [
   {
     id: 'truck-art',
     name: 'Truck Art & Cultural Design',
-    description: 'A celebration of Pakistani Truck Art — bold, intricate folk art traditions translated into contemporary character and graphic design.',
-    thumbnail: '/images/projects/character/truck-art-thumbnail.webp', // REPLACE
+    description: 'Vibrant character and asset design inspired by Pakistani Truck Art traditions, including game pieces and decorative elements.',
+    thumbnail: '/images/Truck_Art/Truck_Art_Thumbnail.webp',
     images: [
-      '/images/projects/character/truck-art-01.webp', // REPLACE
-      '/images/projects/character/truck-art-02.webp', // REPLACE
+      '/images/Truck_Art/Truck_Art_Ludo.webp',
+      '/images/Truck_Art/Truck_Art_Assets.webp',
     ],
-    featured: false,
-  },
-  {
-    id: 'player-pieces',
-    name: 'Game Design — Player Pieces',
-    description: 'Character design and illustration for a board game, including player pieces, stickers, and box art.',
-    thumbnail: '/images/projects/character/player-pieces-thumbnail.webp', // REPLACE
-    images: [
-      '/images/projects/character/char-player-pieces.webp', // REPLACE
-      '/images/projects/character/char-stickers.webp',      // REPLACE
-    ],
-    featured: false,
+    featured: true,
   },
 ]
-
+ 
 export const brandingProjects = [
   {
     id: 'brand-01',
-    title: 'Brand Identity Project 01',  // REPLACE with real brand name
+    title: 'Brand Identity Project 01',
     category: 'Brand Identity',
-    year: '2023',
-    deliverables: ['Logo', 'Business Card', 'Flyer', 'Standee', 'Brand Sheet'],
-    thumbnail: '/images/projects/branding/brand-01-card.webp', // REPLACE
+    year: '2024',
+    deliverables: ['Logo', 'Business Card', 'Flyer', 'Standee', 'Brochure'],
+    thumbnail: '/images/Branding/Brand_1_Thumbnail.webp',
     fullImages: [
-      '/images/projects/branding/brand-01-full-01.webp', // REPLACE
-      '/images/projects/branding/brand-01-full-02.webp', // REPLACE
-      '/images/projects/branding/brand-01-full-03.webp', // REPLACE
+      '/images/Branding/Brand_1_Full_01.webp',
+      '/images/Branding/Brand_1_Full_02.webp',
     ],
-    description: 'A complete brand identity system including logo design, print collateral, and brand guidelines.',
+    description: 'Complete brand identity system including logo design, print collateral, and brand application mockups.',
   },
   {
     id: 'brand-02',
-    title: 'Brand Identity Project 02',  // REPLACE
+    title: 'Brand Identity Project 02',
     category: 'Brand Identity',
-    year: '2023',
-    deliverables: ['Logo', 'Packaging', 'Brand Sheet'],
-    thumbnail: '/images/projects/branding/brand-02-card.webp', // REPLACE
+    year: '2024',
+    deliverables: ['Logo', 'Business Card', 'Flyer', 'Brand Sheet'],
+    thumbnail: '/images/Branding/Brand_2_Thumbnail.webp',
     fullImages: [
-      '/images/projects/branding/brand-02-full-01.webp', // REPLACE
-      '/images/projects/branding/brand-02-full-02.webp', // REPLACE
+      '/images/Branding/Brand_2_Full_01.webp',
+      '/images/Branding/Brand_2_Full_02.webp',
     ],
-    description: 'Brand identity and packaging design project.',
+    description: 'Brand identity and collateral design demonstrating comprehensive branding approach.',
   },
 ]
-
+ 
 export const experience = [
   {
-    role: 'Animation & Multimedia Intern',
+    role: 'Multimedia & 2D Animation Intern',
     company: 'Figment Craft',
-    period: '2025',
-    location: 'Pakistan',
+    period: 'June 2025 – October 2025',
+    location: 'Islamabad, Pakistan',
     responsibilities: [
-      'Produced 2D character animation sequences using Adobe Animate CC and After Effects',
-      'Collaborated on multimedia content including motion graphics and promotional videos',
-      'Contributed to visual development and storyboarding for animation projects',
+      'Produced 2D character animation sequences using Adobe Animate CC and Character Animator',
+      'Created motion design assets and multimedia content for client projects',
+      'Collaborated on animation projects from concept through final delivery',
+      'Worked with AI-assisted animation tools to enhance production efficiency',
     ],
-    certificateUrl: '/certs/cert-experience-figment.pdf', // REPLACE: upload your PDF
   },
   {
     role: 'Graphic Design Intern',
-    company: 'Etribe Solutions',
-    period: '2024',
-    location: 'Pakistan',
+    company: 'eTribe Solutions',
+    period: 'July 2024 – September 2024',
+    location: 'Islamabad, Pakistan',
     responsibilities: [
-      'Designed brand identity systems including logos, business cards, and print collateral',
-      'Created social media graphics and visual content for client campaigns',
-      'Developed packaging design and promotional materials',
+      'Designed brand identities including logos, business cards, and print collateral',
+      'Created social media graphics and visual content for marketing campaigns',
+      'Produced packaging designs and promotional materials',
+      'Supported design department across multiple client projects',
     ],
-    certificateUrl: '/certs/cert-experience-etribe.pdf', // REPLACE
   },
 ]
-
+ 
 export const education = {
   degree: 'Bachelor of Computer Arts',
+  specialization: 'Animation & Visual Effects',
   university: 'Foundation University Islamabad',
   year: '2026',
   relevantCourses: [
-    '2D & 3D Animation',
+    '2D Animation',
+    '3D Animation & Modeling',
+    'Character Animation',
     'Motion Graphics Design',
+    'Visual Effects & Compositing',
     'Character Design & Development',
-    'Visual Storytelling',
+    'Digital Illustration',
+    'Interactive Media',
+  ],
+}
+ 
+export const skills = {
+  technical: [
+    'Character Animation',
+    '2D Animation',
+    '3D Animation (Blender)',
+    'Motion Graphics',
+    'Adobe Creative Suite',
+    'Adobe Character Animator',
+    'Adobe Animate CC',
+    'Adobe After Effects',
+    'Photoshop',
+    'Illustrator',
+    'Motion Design',
+    'Animation Production',
+    'Visual Design',
     'Digital Illustration',
   ],
-}
-
-export const skills = {
-  animation: [
-    { name: 'After Effects', icon: 'ae' },
-    { name: 'Animate CC', icon: 'an' },
-    { name: 'Character Animator', icon: 'ch' },
-    { name: 'Blender', icon: 'blender' },
-    { name: 'Autodesk 3ds Max', icon: '3dsmax' },
-  ],
-  design: [
-    { name: 'Photoshop', icon: 'ps' },
-    { name: 'Illustrator', icon: 'ai' },
-  ],
-  disciplines: [
-    '2D Character Animation',
-    '3D Scene Animation',
-    'Motion Graphics',
-    'Storyboarding',
-    'Character Rigging',
-    'Visual Development',
-    'Illustration',
-    'Brand Identity',
-    'Digital Compositing',
+  soft: [
     'Visual Storytelling',
+    'Creative Problem Solving',
+    'Project Management',
+    'Attention to Detail',
+    'Collaborative Teamwork',
   ],
 }
-
-export const workCategories = [
-  { label: '2D Animation', href: '/2d-animation', description: 'Character animation, expressive motion, and 2D storytelling', thumbnail: '/images/projects/2d/experimental-2d-thumbnail.webp' },
-  { label: '3D Animation', href: '/3d-animation', description: 'Cinematic 3D environments, characters, and scene animation', thumbnail: '/images/projects/3d/official-teaser-thumbnail.webp' },
-  { label: 'Motion Graphics', href: '/motion-graphics', description: 'Kinetic typography, logo animation, and motion design', thumbnail: '/images/projects/motion/kinetic-type-thumbnail.webp' },
-  { label: 'Illustration', href: '/illustration', description: 'Character-driven illustration exploring fantasy and emotion', thumbnail: '/images/projects/illustration/illus-01.webp' },
-  { label: 'Character Design', href: '/character-design', description: 'Original characters, turnarounds, and cultural design', thumbnail: '/images/projects/character/char-jackson-thumbnail.webp' },
-  { label: 'Branding', href: '/branding', description: 'Brand identity systems, print collateral, and packaging', thumbnail: '/images/projects/branding/brand-01-card.webp' },
-]
+ 

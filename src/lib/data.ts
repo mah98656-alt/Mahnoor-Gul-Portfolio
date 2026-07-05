@@ -1,9 +1,9 @@
-============================================================
+// ============================================================
 // MAHNOOR GUL PORTFOLIO DATA
 // All images from Google Drive folder
 // All videos embedded via Vimeo
 // ============================================================
- 
+
 export const siteConfig = {
   name: 'Mahnoor Gul',
   title: '2D & 3D Animator | Motion Designer',
@@ -16,13 +16,13 @@ export const siteConfig = {
   linkedin: 'https://www.linkedin.com/in/mahnoor-gul-308ba428a/',
   availability: 'Available for animation, motion design & multimedia roles',
 }
- 
+
 export const heroData = {
   videoSrc: '/videos/hero-background-loop.mp4',
   posterSrc: '/images/hero/hero-background-fallback.webp',
-  photoSrc: '/images/Profile/Mahnoor_Profile_Photo.webp',
+  photoSrc: '/images/profile photo/Mahnoor_Profile_Photo.webp',
 }
- 
+
 export const showreelData = {
   masterReel: {
     vimeoUrl: 'https://vimeo.com/share/a1103005-fc3d-461f-94be-1996eccb8c61',
@@ -30,7 +30,7 @@ export const showreelData = {
     label: 'Master Showreel',
   },
 }
- 
+
 export const thesisFilm = {
   title: 'Thesis Film',
   tagline: 'A 2D and 3D animated exploration of character and environment.',
@@ -41,7 +41,7 @@ export const thesisFilm = {
   vimeoUrl: 'https://vimeo.com/share/21af417e-bcf0-4124-9407-98ff704aa7a4',
   trailerVimeoUrl: 'https://vimeo.com/share/6fdac968-03b2-48ad-bbd4-66b04185e84c',
   heroImage: '/images/projects/thesis-hero.webp',
-  thumbnail: '/images/Thumbnails/Video_9_Thumbnail.webp',
+  thumbnail: '/images/thumbnails/Video_9_Thumbnail.webp',
   stills: [
     '/images/projects/thesis-still-01.webp',
     '/images/projects/thesis-still-02.webp',
@@ -58,7 +58,7 @@ export const thesisFilm = {
     'Compositing techniques for professional output',
   ],
 }
- 
+
 export const projects3D = [
   {
     id: '3d-video-1',
@@ -66,7 +66,7 @@ export const projects3D = [
     category: '3D Animation',
     year: '2025',
     tools: ['Blender', 'After Effects'],
-    thumbnail: '/images/Thumbnails/Video_1_Thumbnail.webp',
+    thumbnail: '/images/thumbnails/Video_1_Thumbnail.webp',
     preview: '/videos/3d/Video_1_Preview.mp4',
     vimeoUrl: 'https://vimeo.com/share/a1103005-fc3d-461f-94be-1996eccb8c61',
     stills: [
@@ -81,7 +81,7 @@ export const projects3D = [
     category: '3D Animation',
     year: '2025',
     tools: ['Blender', 'After Effects'],
-    thumbnail: '/images/Thumbnails/Video_2_Thumbnail.webp',
+    thumbnail: '/images/thumbnails/Video_2_Thumbnail.webp',
     preview: '/videos/3d/Video_2_Preview.mp4',
     vimeoUrl: 'https://vimeo.com/share/e9a988de-d220-472d-aa9d-2ae2ceb3f975',
     stills: [
@@ -91,7 +91,7 @@ export const projects3D = [
     featured: false,
   },
 ]
- 
+
 export const projects2D = [
   {
     id: '2d-video-1',
@@ -99,7 +99,7 @@ export const projects2D = [
     category: '2D Animation',
     year: '2025',
     tools: ['Adobe Animate CC', 'After Effects', 'Photoshop'],
-    thumbnail: '/images/Thumbnails/Video_3_Thumbnail.webp',
+    thumbnail: '/images/thumbnails/Video_3_Thumbnail.webp',
     preview: '/videos/2d/Video_3_Preview.mp4',
     vimeoUrl: 'https://vimeo.com/share/cb8b043a-dfea-48d0-9b9a-84bf04a943e4',
     stills: [
@@ -114,7 +114,7 @@ export const projects2D = [
     category: '2D Animation',
     year: '2025',
     tools: ['Adobe Animate CC', 'After Effects'],
-    thumbnail: '/images/Thumbnails/Video_4_Thumbnail.webp',
+    thumbnail: '/images/thumbnails/Video_4_Thumbnail.webp',
     preview: '/videos/2d/Video_4_Preview.mp4',
     vimeoUrl: 'https://vimeo.com/share/c5af8dac-4734-4ac4-9c1c-859bf66069c8',
     stills: [
@@ -129,7 +129,7 @@ export const projects2D = [
     category: '2D Animation',
     year: '2025',
     tools: ['Adobe Animate CC', 'After Effects', 'Photoshop'],
-    thumbnail: '/images/Thumbnails/Video_5_Thumbnail.webp',
+    thumbnail: '/images/thumbnails/Video_5_Thumbnail.webp',
     preview: '/videos/2d/Video_5_Preview.mp4',
     vimeoUrl: 'https://vimeo.com/share/7bf1dd59-9dcc-4162-8188-f6c46e5f7671',
     stills: [
@@ -139,7 +139,7 @@ export const projects2D = [
     featured: false,
   },
 ]
- 
+
 export const projectsMotion = [
   {
     id: 'motion-video-1',
@@ -147,7 +147,7 @@ export const projectsMotion = [
     category: 'Motion Graphics',
     year: '2025',
     tools: ['After Effects', 'Illustrator'],
-    thumbnail: '/images/Thumbnails/Video_6_Thumbnail.webp',
+    thumbnail: '/images/thumbnails/Video_6_Thumbnail.webp',
     preview: '/videos/motion/Video_6_Preview.mp4',
     vimeoUrl: 'https://vimeo.com/share/636d20a7-f929-4874-bb29-32ff186a3308',
     description: 'Motion graphics showcasing kinetic typography and visual effects.',
@@ -159,7 +159,7 @@ export const projectsMotion = [
     category: 'Motion Graphics',
     year: '2025',
     tools: ['After Effects', 'Illustrator'],
-    thumbnail: '/images/Thumbnails/Video_7_Thumbnail.webp',
+    thumbnail: '/images/thumbnails/Video_7_Thumbnail.webp',
     preview: '/videos/motion/Video_7_Preview.mp4',
     vimeoUrl: 'https://vimeo.com/share/3adedc7d-9e23-4154-a04b-14f19abf3dce',
     description: 'Motion design project demonstrating animation principles and visual storytelling.',
@@ -171,51 +171,51 @@ export const projectsMotion = [
     category: 'Motion Graphics',
     year: '2025',
     tools: ['After Effects'],
-    thumbnail: '/images/Thumbnails/Video_8_Thumbnail.webp',
+    thumbnail: '/images/thumbnails/Video_8_Thumbnail.webp',
     preview: '/videos/motion/Video_8_Preview.mp4',
     vimeoUrl: 'https://vimeo.com/share/dcf74197-b773-4843-90a7-c1c710b32c16',
     description: 'Motion graphics composition combining animation and design elements.',
     featured: false,
   },
 ]
- 
+
 export const illustrations = [
-  { id: 'illus-01', src: '/images/Illustration/Illus_01.webp', title: 'Illustration 01', orientation: 'portrait' },
-  { id: 'illus-02', src: '/images/Illustration/Illus_02.webp', title: 'Illustration 02', orientation: 'landscape' },
-  { id: 'illus-03', src: '/images/Illustration/Illus_03.webp', title: 'Illustration 03', orientation: 'portrait' },
-  { id: 'illus-04', src: '/images/Illustration/Illus_04.webp', title: 'Illustration 04', orientation: 'landscape' },
-  { id: 'illus-05', src: '/images/Illustration/Illus_05.webp', title: 'Illustration 05', orientation: 'portrait' },
-  { id: 'illus-06', src: '/images/Illustration/Illus_06.webp', title: 'Illustration 06', orientation: 'landscape' },
-  { id: 'illus-07', src: '/images/Illustration/Illus_07.webp', title: 'Illustration 07', orientation: 'portrait' },
+  { id: 'illus-01', src: '/images/illustrations/Illus_01.webp', title: 'Illustration 01', orientation: 'portrait' },
+  { id: 'illus-02', src: '/images/illustrations/Illus_02.webp', title: 'Illustration 02', orientation: 'landscape' },
+  { id: 'illus-03', src: '/images/illustrations/Illus_03.webp', title: 'Illustration 03', orientation: 'portrait' },
+  { id: 'illus-04', src: '/images/illustrations/Illus_04.webp', title: 'Illustration 04', orientation: 'landscape' },
+  { id: 'illus-05', src: '/images/illustrations/Illus_05.webp', title: 'Illustration 05', orientation: 'portrait' },
+  { id: 'illus-06', src: '/images/illustrations/Illus_06.webp', title: 'Illustration 06', orientation: 'landscape' },
+  { id: 'illus-07', src: '/images/illustrations/Illus_07.webp', title: 'Illustration 07', orientation: 'portrait' },
 ]
- 
+
 export const characterDesigns = [
   {
     id: 'jackson',
     name: 'Jackson',
     description: 'Original character design with full turnaround and multiple poses and expressions.',
-    turnaround: '/images/Character_Design/Jackson_Turnaround.webp',
-    expressions: '/images/Character_Design/Jackson_Poses.webp',
-    colorSheet: '/images/Character_Design/Jackson_Color_Sheet.webp',
-    thumbnail: '/images/Character_Design/Jackson_Thumbnail.webp',
+    turnaround: '/images/character design/Jackson_Turnaround.webp',
+    expressions: '/images/character design/Jackson_Poses.webp',
+    colorSheet: '/images/character design/Jackson_Color_Sheet.webp',
+    thumbnail: '/images/character design/Jackson_Thumbnail.webp',
     featured: true,
   },
 ]
- 
+
 export const truckArt = [
   {
     id: 'truck-art',
     name: 'Truck Art & Cultural Design',
     description: 'Vibrant character and asset design inspired by Pakistani Truck Art traditions, including game pieces and decorative elements.',
-    thumbnail: '/images/Truck_Art/Truck_Art_Thumbnail.webp',
+    thumbnail: '/images/truck art/Truck_Art_Thumbnail.webp',
     images: [
-      '/images/Truck_Art/Truck_Art_Ludo.webp',
-      '/images/Truck_Art/Truck_Art_Assets.webp',
+      '/images/truck art/Truck_Art_Ludo.webp',
+      '/images/truck art/Truck_Art_Assets.webp',
     ],
     featured: true,
   },
 ]
- 
+
 export const brandingProjects = [
   {
     id: 'brand-01',
@@ -223,10 +223,10 @@ export const brandingProjects = [
     category: 'Brand Identity',
     year: '2024',
     deliverables: ['Logo', 'Business Card', 'Flyer', 'Standee', 'Brochure'],
-    thumbnail: '/images/Branding/Brand_1_Thumbnail.webp',
+    thumbnail: '/images/branding/Brand_1_Thumbnail.webp',
     fullImages: [
-      '/images/Branding/Brand_1_Full_01.webp',
-      '/images/Branding/Brand_1_Full_02.webp',
+      '/images/branding/Brand_1_Full_01.webp',
+      '/images/branding/Brand_1_Full_02.webp',
     ],
     description: 'Complete brand identity system including logo design, print collateral, and brand application mockups.',
   },
@@ -236,15 +236,15 @@ export const brandingProjects = [
     category: 'Brand Identity',
     year: '2024',
     deliverables: ['Logo', 'Business Card', 'Flyer', 'Brand Sheet'],
-    thumbnail: '/images/Branding/Brand_2_Thumbnail.webp',
+    thumbnail: '/images/branding/Brand_2_Thumbnail.webp',
     fullImages: [
-      '/images/Branding/Brand_2_Full_01.webp',
-      '/images/Branding/Brand_2_Full_02.webp',
+      '/images/branding/Brand_2_Full_01.webp',
+      '/images/branding/Brand_2_Full_02.webp',
     ],
     description: 'Brand identity and collateral design demonstrating comprehensive branding approach.',
   },
 ]
- 
+
 export const experience = [
   {
     role: 'Multimedia & 2D Animation Intern',
@@ -271,7 +271,7 @@ export const experience = [
     ],
   },
 ]
- 
+
 export const education = {
   degree: 'Bachelor of Computer Arts',
   specialization: 'Animation & Visual Effects',
@@ -288,7 +288,7 @@ export const education = {
     'Interactive Media',
   ],
 }
- 
+
 export const skills = {
   technical: [
     'Character Animation',
@@ -314,4 +314,3 @@ export const skills = {
     'Collaborative Teamwork',
   ],
 }
- 

@@ -290,27 +290,24 @@ export const education = {
 }
 
 export const skills = {
-  technical: [
+  animation: [
+    { name: 'Blender (3D Animation)', icon: 'blender' },
+    { name: 'Adobe Animate CC', icon: 'an' },
+    { name: 'Adobe Character Animator', icon: 'ch' },
+    { name: 'Adobe After Effects', icon: 'ae' },
+  ],
+  design: [
+    { name: 'Photoshop', icon: 'ps' },
+    { name: 'Illustrator', icon: 'ai' },
+  ],
+  disciplines: [
     'Character Animation',
     '2D Animation',
-    '3D Animation (Blender)',
+    '3D Animation',
     'Motion Graphics',
-    'Adobe Creative Suite',
-    'Adobe Character Animator',
-    'Adobe Animate CC',
-    'Adobe After Effects',
-    'Photoshop',
-    'Illustrator',
-    'Motion Design',
-    'Animation Production',
-    'Visual Design',
-    'Digital Illustration',
-  ],
-  soft: [
     'Visual Storytelling',
     'Creative Problem Solving',
     'Project Management',
     'Attention to Detail',
-    'Collaborative Teamwork',
   ],
 }

@@ -258,6 +258,7 @@ export const experience = [
       'Collaborated on animation projects from concept through final delivery',
       'Worked with AI-assisted animation tools to enhance production efficiency',
     ],
+    certificateUrl: '',
   },
   {
     role: 'Graphic Design Intern',
@@ -270,6 +271,7 @@ export const experience = [
       'Produced packaging designs and promotional materials',
       'Supported design department across multiple client projects',
     ],
+    certificateUrl: '',
   },
 ]
 
@@ -312,3 +314,42 @@ export const skills = {
     'Attention to Detail',
   ],
 }
+
+export const workCategories = [
+  {
+    label: '3D Animation',
+    href: '/work/3d-animation',
+    description: 'Environmental design, lighting, and rendering in Blender.',
+    thumbnail: '/images/thumbnails/Video_1_Thumbnail.webp',
+  },
+  {
+    label: '2D Animation',
+    href: '/work/2d-animation',
+    description: 'Character-driven frame-by-frame and digital animation.',
+    thumbnail: '/images/thumbnails/Video_3_Thumbnail.webp',
+  },
+  {
+    label: 'Motion Graphics',
+    href: '/work/motion-graphics',
+    description: 'Kinetic typography and visual effects for brands and stories.',
+    thumbnail: '/images/thumbnails/Video_6_Thumbnail.webp',
+  },
+  {
+    label: 'Illustration',
+    href: '/work/illustration',
+    description: 'Digital illustration and visual concept art.',
+    thumbnail: '/images/illustrations/Illus_01.webp',
+  },
+  {
+    label: 'Character Design',
+    href: '/work/character-design',
+    description: 'Original character turnarounds, poses, and expression sheets.',
+    thumbnail: '/images/character design/Jackson_Thumbnail.webp',
+  },
+  {
+    label: 'Branding',
+    href: '/work/branding',
+    description: 'Complete brand identity systems and print collateral.',
+    thumbnail: '/images/branding/Brand_1_Thumbnail.webp',
+  },
+]

@@ -199,6 +199,7 @@ export const characterDesigns = [
     colorSheet: '/images/character design/Jackson_Color_Sheet.webp',
     thumbnail: '/images/character design/Jackson_Thumbnail.webp',
     featured: true,
+    images: [],
   },
 ]
 

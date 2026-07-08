@@ -25,7 +25,7 @@ export const heroData = {
 
 export const showreelData = {
   masterReel: {
-    vimeoUrl: 'https://vimeo.com/share/a1103005-fc3d-461f-94be-1996eccb8c61',
+    vimeoUrl: 'https://player.vimeo.com/video/1207023927',
     poster: '/images/hero/showreel-poster.webp',
     label: 'Master Showreel',
   },
@@ -38,8 +38,8 @@ export const thesisFilm = {
   duration: '2 min 30 sec',
   role: 'Director · Animator · Character Designer · Compositor',
   tools: ['Blender', 'After Effects', 'Animate CC', 'Photoshop'],
-  vimeoUrl: 'https://vimeo.com/share/21af417e-bcf0-4124-9407-98ff704aa7a4',
-  trailerVimeoUrl: 'https://vimeo.com/share/6fdac968-03b2-48ad-bbd4-66b04185e84c',
+  vimeoUrl: 'https://player.vimeo.com/video/1207023040',
+  trailerVimeoUrl: 'https://player.vimeo.com/video/1207022999',
   heroImage: '/images/projects/thesis-hero.webp',
   thumbnail: '/images/thumbnails/Video_9_Thumbnail.webp',
   stills: [
@@ -68,7 +68,7 @@ export const projects3D = [
     tools: ['Blender', 'After Effects'],
     thumbnail: '/images/thumbnails/Video_1_Thumbnail.webp',
     preview: '/videos/3d/Video_1_Preview.mp4',
-    vimeoUrl: 'https://vimeo.com/share/a1103005-fc3d-461f-94be-1996eccb8c61',
+    vimeoUrl: 'https://player.vimeo.com/video/1207023927',
     stills: [
       '/images/projects/3d-still-01.webp',
     ],
@@ -83,7 +83,7 @@ export const projects3D = [
     tools: ['Blender', 'After Effects'],
     thumbnail: '/images/thumbnails/Video_2_Thumbnail.webp',
     preview: '/videos/3d/Video_2_Preview.mp4',
-    vimeoUrl: 'https://vimeo.com/share/e9a988de-d220-472d-aa9d-2ae2ceb3f975',
+    vimeoUrl: 'https://player.vimeo.com/video/1207022515',
     stills: [
       '/images/projects/3d-still-02.webp',
     ],
@@ -101,7 +101,7 @@ export const projects2D = [
     tools: ['Adobe Animate CC', 'After Effects', 'Photoshop'],
     thumbnail: '/images/thumbnails/Video_3_Thumbnail.webp',
     preview: '/videos/2d/Video_3_Preview.mp4',
-    vimeoUrl: 'https://vimeo.com/share/cb8b043a-dfea-48d0-9b9a-84bf04a943e4',
+    vimeoUrl: 'https://player.vimeo.com/video/1207022694',
     stills: [
       '/images/projects/2d-still-01.webp',
     ],
@@ -116,7 +116,7 @@ export const projects2D = [
     tools: ['Adobe Animate CC', 'After Effects'],
     thumbnail: '/images/thumbnails/Video_4_Thumbnail.webp',
     preview: '/videos/2d/Video_4_Preview.mp4',
-    vimeoUrl: 'https://vimeo.com/share/c5af8dac-4734-4ac4-9c1c-859bf66069c8',
+    vimeoUrl: 'https://player.vimeo.com/video/1207022680',
     stills: [
       '/images/projects/2d-still-02.webp',
     ],
@@ -131,7 +131,7 @@ export const projects2D = [
     tools: ['Adobe Animate CC', 'After Effects', 'Photoshop'],
     thumbnail: '/images/thumbnails/Video_5_Thumbnail.webp',
     preview: '/videos/2d/Video_5_Preview.mp4',
-    vimeoUrl: 'https://vimeo.com/share/7bf1dd59-9dcc-4162-8188-f6c46e5f7671',
+    vimeoUrl: 'https://player.vimeo.com/video/1207022873',
     stills: [
       '/images/projects/2d-still-03.webp',
     ],
@@ -149,7 +149,7 @@ export const projectsMotion = [
     tools: ['After Effects', 'Illustrator'],
     thumbnail: '/images/thumbnails/Video_6_Thumbnail.webp',
     preview: '/videos/motion/Video_6_Preview.mp4',
-    vimeoUrl: 'https://vimeo.com/share/636d20a7-f929-4874-bb29-32ff186a3308',
+    vimeoUrl: 'https://player.vimeo.com/video/1207022638',
     description: 'Motion graphics showcasing kinetic typography and visual effects.',
     featured: false,
   },
@@ -161,7 +161,7 @@ export const projectsMotion = [
     tools: ['After Effects', 'Illustrator'],
     thumbnail: '/images/thumbnails/Video_7_Thumbnail.webp',
     preview: '/videos/motion/Video_7_Preview.mp4',
-    vimeoUrl: 'https://vimeo.com/share/3adedc7d-9e23-4154-a04b-14f19abf3dce',
+    vimeoUrl: 'https://player.vimeo.com/video/1207022945',
     description: 'Motion design project demonstrating animation principles and visual storytelling.',
     featured: true,
   },
@@ -173,7 +173,7 @@ export const projectsMotion = [
     tools: ['After Effects'],
     thumbnail: '/images/thumbnails/Video_8_Thumbnail.webp',
     preview: '/videos/motion/Video_8_Preview.mp4',
-    vimeoUrl: 'https://vimeo.com/share/dcf74197-b773-4843-90a7-c1c710b32c16',
+    vimeoUrl: 'https://player.vimeo.com/video/1207022502',
     description: 'Motion graphics composition combining animation and design elements.',
     featured: false,
   },

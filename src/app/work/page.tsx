@@ -2,7 +2,7 @@
 
 import Link from 'next/link'
 import { motion } from 'framer-motion'
-import { ThesisFeatureSection } from '@/lib/data'
+
 import { Reveal, StaggerReveal, StaggerItem, ClipReveal } from '@/components/ui/Reveal'
 import Footer from '@/components/layout/Footer'
 
